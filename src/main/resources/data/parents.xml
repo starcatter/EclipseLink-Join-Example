@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parentList>
+    <parent>
+        <parentName>Parent A</parentName>
+        <childId>1</childId>
+    </parent>
+    <parent>
+        <parentName>Parent B-1</parentName>
+        <childId>2</childId>
+    </parent>
+    <parent>
+        <parentName>Parent B-2</parentName>
+        <childId>2</childId>
+    </parent>
+</parentList>

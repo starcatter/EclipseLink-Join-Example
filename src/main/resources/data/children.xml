@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<childList>
+    <child>
+        <childId>1</childId>
+        <childName>Child A</childName>
+    </child>
+    <child>
+        <childId>2</childId>
+        <childName>Child B</childName>
+    </child>
+</childList>

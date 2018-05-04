@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<universe
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xi="http://www.w3.org/2001/XInclude"
+        xsi:noNamespaceSchemaLocation="../schema/universe.xsd"
+        xml:base="src/main/resources/data/"
+>
+    <xi:include href="parents.xml" />
+    <xi:include href="children.xml" />
+</universe>

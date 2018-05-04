@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="childList" type="childListType" />
+
+    <xs:complexType name="childListType">
+        <xs:sequence>
+            <xs:element type="childType" name="child" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="childType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="childId"/>
+            <xs:element type="xs:string" name="childName"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
